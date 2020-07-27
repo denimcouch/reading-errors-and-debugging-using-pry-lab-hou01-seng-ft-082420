@@ -1,7 +1,7 @@
 require 'pry'
 
 def generate_star_date
-  (rand(100000) + 400000) / 10.0
+  star_date = (rand(100000) + 400000) / 10.0
 end
 
 
@@ -11,5 +11,4 @@ end
 
 def engage
   puts state_log(star_date)
-  star_date = generate_star_date
 end
